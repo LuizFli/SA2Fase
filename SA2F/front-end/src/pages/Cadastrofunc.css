@@ -1,0 +1,139 @@
+body,html,#root{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+/* .body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    background: radial-gradient(101.81% 98.73% at 51.96% 40.13%, rgba(96, 103, 242, 0.80) 0.01%, rgba(52, 52, 52, 0.80) 94.06%);
+    box-shadow: 10px 28px 36px 17px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25.5px);
+} */
+    .Cadastrofunc-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; 
+        
+    }
+    .esquerdo{
+
+        display: flex;
+        background-color: whitesmoke;
+        width: 50%;
+        height: 90%;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        border-radius: 10px;
+        
+    }
+    .texts{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .titulo{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 20%;
+        color: rgb(24, 24, 24);
+    }
+    .descricao{
+        font-size: 20px;
+        color: rgb(24, 24, 24);
+       padding-left: 17%;
+       margin: 5px;
+    }
+    .inputs{
+        display: flex;
+        width: 60%;
+        height: 60%;
+        padding: 5px;
+        /* border: solid 2px rgb(24, 24, 24); */
+        border-radius: 10px;
+        width: 95%;
+        margin-left: 1.5%;
+        flex-direction: column;
+        gap: 4%;
+    }
+    .buttons{
+        display: flex;
+        width: 80%;
+        height: 10%;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+
+    }
+    .username-input,.email-input,.senha-input,.telefone,.nascimento-input,.cpf-input,.meta{
+        width: 100%;
+        height: 60px;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        font-size: 18px;
+        background-color: white;
+        color: black;
+        
+    }
+    .confirma{
+        background-color: #4abb59;
+        color: white;
+        border: none;
+        width: 35%;
+        height: 70%;
+        border-radius: 35px;
+    }
+    .limpa{
+        background-color: #7B76F1;
+        color: white;
+        border: none;
+        width: 35%;
+        height: 70%;
+        border-radius: 35px;
+    }
+    .direito{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+            border-radius: 15px;
+            height: 95%;
+            flex-direction: column;
+    }
+    .profile-section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 22%;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-top: 7.5%;
+    }
+        .profile-picture{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        } 
+
+        .change-photo-button{
+            background-color: #7B76F1;
+            color: white;
+            border: 0;
+        }
+        

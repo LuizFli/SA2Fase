@@ -36,6 +36,30 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
 </div>
 
+<p>
+	
+create table produtos(
+
+	idp serial primary key,
+	marca varchar(30),
+	modelo varchar(30),
+	ano_fabri integer,
+	ano_modelo integer,
+	combustivel varchar(30),
+	versao varchar(50),
+	km varchar(30),
+	cor varchar(30),
+	cambio varchar(30),
+	preco varchar(30),
+	localizacao varchar(60),
+	descri varchar(300),
+	image varchar(300)
+);
+select * from produtos;
+DataBase SaleSigth
+	
+</p>
+
 
 ## Requisitos Funcionais:
 
@@ -66,14 +90,10 @@
 
 ## Protótipo de páginas
 
-##### Realizado no Figma: https://www.figma.com/design/D3nMK9UnZpaAejK6rxgtfW/Login_Sign-up-Templates-(Desktop)-(Community)?node-id=0-1&t=vSZAtuAhFl2IExx9-1
+##### Realizado no Figma:
+
+ [Figma-Templates](https://www.figma.com/design/D3nMK9UnZpaAejK6rxgtfW/Login_Sign-up-Templates-(Desktop)-(Community)?node-id=0-1&t=vSZAtuAhFl2IExx9-1)
   
-### Cadastro
-
-<img src="imagens/Cadastrar.jpg" alt="imagemCadastrar" style="width:700px">
-
-### Login
-<img src="imagens/Entrar.jpg" alt="imagementrar" style="width:700px">
   
 ### Desenvolvedores do Projeto
 

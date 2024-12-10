@@ -1,0 +1,88 @@
+html,body,#root{
+
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(193.69% 189.9% at 54.62% -37.46%, #2C0E6A 0%, rgba(7, 3, 18, 0.50) 100%), #565656;
+    
+}
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 2%;
+    height: 94%;
+    width: 100%;
+    border-radius: 25px;
+    /* border: 1px solid rgba(255, 255, 255, 0.54); */
+    background: radial-gradient(101.81% 98.73% at 51.96% 40.13%, rgba(96, 103, 242, 0.80) 0.01%, rgba(52, 52, 52, 0.80) 94.06%);
+    box-shadow: 10px 28px 36px 17px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25.5px);
+}
+.body-home {
+    width: 80%;
+    height: 95%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    border-radius: 15px;
+    margin-top: 15px;
+    flex-direction: column;
+    
+}
+
+.body-meio {
+    display: flex; /* Flexbox para alinhar os filhos horizontalmente */
+    flex-wrap: wrap; /* Garante que elementos se alinhem corretamente se não houver espaço */
+    width: 100%;
+    height: 90%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background-color: blue; */
+}
+
+.body-top {
+    /* background-color: #2C0E6A; */
+    width: 100%;
+    height: 50%; 
+    margin-bottom: 5px;
+}
+
+.body-baixoEsq {
+    /* background-color: #00ff00; */
+    width: 60%;
+    height: 50%;
+    border-bottom-left-radius: 15px;
+}
+
+.body-baixoDir {
+    /* background-color: #ff0000;  */
+    width: 40%;
+    height: 50%;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colunabar{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: baseline;
+}
+
+.h1-home{
+    color: #fff;
+}
+
+.span-home{
+    color: rgb(0, 255, 0)
+}
